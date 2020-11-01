@@ -236,7 +236,9 @@ form{
     transform: translateX(-1000px);
 }
 
-.container.sign-up-mode .right-panel .content, 
+.container.sign-up-mode .right-panel .content {
+    transform: translateX(-100px);
+}
 .container.sign-up-mode .right-panel .image {
     transform: translateX(0px);
 }
