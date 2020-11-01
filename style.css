@@ -264,6 +264,48 @@ form{
 
 
 /* Tablet responsive design */
+@media (max-width: 1200px) {
+/* -------------Form------------- */
+    .title {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    
+    .input-field {
+        max-width: 340px;
+        height: 48px;
+        margin: 8px 0;
+    }
+    
+    .input-field i {
+        line-height: 45px;
+        font-size: 1.2rem;
+    }
+    
+    .input-field input {
+        font-size: 1.2rem;
+    }
+    
+    .btn {
+        width: 120px;
+        height: 40px;
+        margin: 8px 0;
+    }
+    
+    .social-text {
+        padding: 0.7rem;
+        font-size: 1.3rem;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+        margin: 0 0.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+
 @media (max-width: 870px) {
     .container {
         min-height: 800px;
@@ -322,11 +364,6 @@ form{
         height: 30px;
         margin: 0 0.5rem;
         font-size: 1rem;
-    }
-    
-    .social-icon:hover {
-        color: rgb(34, 185, 80);
-        border-color: rgb(34, 185, 80);
     }
 
     .panels-container{
