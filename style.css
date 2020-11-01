@@ -419,6 +419,12 @@ form{
     .container.sign-up-mode .left-panel .image {
         transform: translateY(-1000px);
     }
+
+    .container.sign-up-mode .right-panel .content,
+    .container.sign-up-mode .right-panel .image {
+        transform: translateX(0px);
+    }
+
     .container.sign-up-mode .signin-signup{
         transform: translate(-50%,0);
         top: 15%;
